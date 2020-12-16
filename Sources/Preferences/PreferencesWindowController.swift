@@ -4,7 +4,7 @@ extension NSWindow.FrameAutosaveName {
 	static let preferences: NSWindow.FrameAutosaveName = "com.sindresorhus.Preferences.FrameAutosaveName"
 }
 
-public final class PreferencesWindowController: NSWindowController {
+public class PreferencesWindowController: NSWindowController {
 	private let tabViewController = PreferencesTabViewController()
 
 	public var isAnimated: Bool {
